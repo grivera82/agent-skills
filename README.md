@@ -1,6 +1,6 @@
 # Agent Skills
 
-A personal collection of high-quality, reusable Grok skills.
+A personal collection of high-quality, reusable skills for AI agents (Grok, Claude, Codex, and others).
 
 ## Skills
 
@@ -29,11 +29,11 @@ mkdir -p .grok/skills
 cp -r /path/to/agent-skills/youtube-summarizer .grok/skills/
 ```
 
-After adding or updating skills, Grok will discover them automatically (or run `/skills` to refresh).
+After adding or updating skills, most agent tools will discover them automatically when placed in the correct directory for that tool.
 
 ## Requirements
 
-Most skills in this collection have no external dependencies beyond what's already available in the Grok environment. When a skill benefits from a specific CLI tool (e.g. `yt-dlp` for youtube-summarizer), it is documented in the skill's README or SKILL.md.
+Most skills in this collection have no external dependencies beyond what's already available in typical agent environments. When a skill benefits from a specific CLI tool (e.g. `yt-dlp` for youtube-summarizer), it is documented in the skill's README or SKILL.md.
 
 ## Adding New Skills
 
@@ -42,7 +42,7 @@ Each skill lives in its own top-level folder containing a `SKILL.md` file.
 To add a new skill:
 
 1. Create a new directory: `mkdir my-new-skill`
-2. Write `my-new-skill/SKILL.md` following the standard Grok skill format
+2. Write `my-new-skill/SKILL.md` following the standard agent skill format
 3. Update this README with a short description
 4. Commit and push
 
