@@ -8,6 +8,7 @@ A personal collection of high-quality, reusable skills for AI agents (Grok, Clau
 |-------|-------------|
 | [youtube-summarizer](./youtube-summarizer) | Takes any YouTube video URL and produces a structured, high-quality summary with TL;DR, key points, and timestamps. Uses yt-dlp (preferred) or youtube-transcript-api, with intelligent chunking for long videos. |
 | [competitor-analysis](./competitor-analysis) | Given a company name (optionally with product/category focus or "vs X"), delivers a structured competitor & market analysis including key players, positioning, recent signals, differentiation, and risks/opportunities. Supports quick overviews and deep research. |
+| [improve-prompt](./improve-prompt) | Takes a raw or mediocre prompt and produces a significantly better, well-structured version. Diagnoses weaknesses and explains the improvements (educational). Supports many styles via natural language ("more concise", "add chain-of-thought", "for coding", etc.). |
 
 ## Installation
 
